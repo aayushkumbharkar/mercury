@@ -4,9 +4,9 @@ Mercury traces the consequences of a launch-date change across Google Calendar, 
 
 ## Two-minute demo
 
-- **Production video:** `demo/mercury-demo.mp4` (1:57, 1080p, synchronized voiceover and captions).
+- **Production video:** [demo/mercury-demo.mp4](demo/mercury-demo.mp4) (1:57, 1080p, synchronized voiceover and captions).
 - **Verified live take:** Take 2 reached live API mismatch at 43.5s and verified recovery at 62.5s ([demo/render-report.json](demo/render-report.json)).
-- **Visual evidence:** Complete aligned UI screenshots preserved in [demo/evidence/](demo/evidence/) (`take-2-failure.png`, `take-2-impact.png`, `take-2-proof.png`, `take-2-receipt.png`).
+- **Visual evidence:** Complete aligned UI screenshots preserved in [demo/evidence/](demo/evidence/) ([take-2-failure.png](demo/evidence/take-2-failure.png), [take-2-impact.png](demo/evidence/take-2-impact.png), [take-2-proof.png](demo/evidence/take-2-proof.png), [take-2-receipt.png](demo/evidence/take-2-receipt.png)).
 - **Reproduction guide & shot list:** [demo/README.md](demo/README.md).
 
 ## Run locally
