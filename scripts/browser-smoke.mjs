@@ -1,0 +1,16 @@
+import { chromium } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1100}});
+const errors=[];page.on('pageerror',error=>errors.push(error.message));
+await page.goto('http://127.0.0.1:4317');
+await page.getByRole('button',{name:'Analyze impact'}).click();
+await page.getByRole('button',{name:'Execute & verify'}).waitFor();
+await page.screenshot({path:'data/preview.png',fullPage:true});
+await page.getByRole('button',{name:'Execute & verify'}).click();
+await page.getByText('Recovery proven.',{exact:true}).waitFor();
+await page.screenshot({path:'data/recovery.png',fullPage:true});
+console.log(JSON.stringify({errors,success:await page.getByText('Recovery proven.',{exact:true}).count(),recovery:await page.getByRole('region',{name:'Recovery proof'}).count()}));
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:'data/mobile.png',fullPage:true});
+console.log(JSON.stringify({bodyWidth:await page.locator('body').evaluate(e=>e.scrollWidth),viewport:390}));
+await browser.close();

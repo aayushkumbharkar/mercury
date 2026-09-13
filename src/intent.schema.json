@@ -1,0 +1,1 @@
+{"type":"object","properties":{"supported":{"type":"boolean"},"targetDate":{"type":["string","null"]},"sourceDate":{"type":["string","null"]},"reason":{"type":"string"}},"required":["supported","targetDate","sourceDate","reason"],"additionalProperties":false}

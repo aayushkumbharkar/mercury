@@ -1,0 +1,11 @@
+{
+  "take": "1",
+  "leadIn": 0.647,
+  "discoverySeconds": 2.26,
+  "failureAt": 44.514,
+  "executionSeconds": 26.411,
+  "finishedAt": 63.415,
+  "contentSeconds": 117.011,
+  "errors": [],
+  "receiptId": "308f65d2-e0a5-4dc1-b774-99fcabe33e7b"
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+secrets/
+data/
+.env
+*.log
+.agents/
+.npm-cache/
+skills-lock.json
+
+demo/raw/
+demo/audio/
+demo/*.mp4
+demo/*.wav

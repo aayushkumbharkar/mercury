@@ -1,0 +1,105 @@
+1
+00:00:00,000 --> 00:00:05,300
+Changing one launch date sounds simple.
+Across a calendar, a task register,
+
+2
+00:00:05,300 --> 00:00:10,601
+and a launch brief, it can
+leave a team working from conflicting
+
+3
+00:00:10,601 --> 00:00:11,043
+information.
+
+
+4
+00:00:13,000 --> 00:00:18,131
+Mercury takes one launch change and
+discovers the linked records in Google
+
+5
+00:00:18,131 --> 00:00:23,262
+Calendar, Sheets, and Docs. These are
+real applications. The graph shows three
+
+6
+00:00:23,262 --> 00:00:28,393
+task owners and their prerequisites. Declared
+offsets keep quality checks before release,
+
+7
+00:00:28,393 --> 00:00:32,241
+rather than moving every task
+to the same day.
+
+8
+00:00:37,000 --> 00:00:42,369
+Now Mercury applies the plan. Every
+write has a separate readback. An
+
+9
+00:00:42,369 --> 00:00:46,843
+accepted request is not evidence
+that the desired state exists.
+
+10
+00:00:47,000 --> 00:00:52,314
+This run deliberately injects one stale
+write. The API acknowledges it, but
+
+11
+00:00:52,314 --> 00:00:57,629
+the recorded date is still wrong.
+Mercury withholds success and checks whether
+
+12
+00:00:57,629 --> 00:00:58,957
+repair is
+safe.
+
+13
+00:01:08,000 --> 00:01:13,926
+One bounded repair restores the expected
+date. The proof shows the contradiction:
+
+14
+00:01:13,926 --> 00:01:19,852
+September sixteenth was observed when September
+twentieth was required. A new read
+
+15
+00:01:19,852 --> 00:01:24,296
+verifies September twentieth. Only then
+can dependent work proceed.
+
+16
+00:01:29,000 --> 00:01:35,573
+The final receipt records five verified
+postconditions across all three applications, with
+
+17
+00:01:35,573 --> 00:01:42,146
+timestamps and external records. Missing evidence
+stays inconclusive. A conflicting edit stops
+
+18
+00:01:42,146 --> 00:01:43,242
+automatic
+repair.
+
+19
+00:01:44,000 --> 00:01:48,857
+This is recovery within a defined
+workflow, not a promise that everybody
+
+20
+00:01:48,857 --> 00:01:53,713
+read an update. Mercury shows what
+changed, what failed, what recovered, and
+
+21
+00:01:53,713 --> 00:01:54,927
+what is
+proven.
+

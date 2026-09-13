@@ -1,0 +1,361 @@
+{
+  "id": "308f65d2-e0a5-4dc1-b774-99fcabe33e7b",
+  "planId": "12873e04-3f16-4540-8646-9807b2d78dc7",
+  "mode": "live",
+  "startedAt": "2026-09-13T21:19:04.420Z",
+  "verdict": "SUCCESS",
+  "status": "FINISHED",
+  "results": [
+    {
+      "id": "launch",
+      "verdict": "SUCCESS",
+      "reason": "Desired state verified by independent read.",
+      "recovered": false,
+      "attempts": [
+        {
+          "at": "2026-09-13T21:19:07.431Z",
+          "acknowledged": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-09-13T21:19:04.802Z",
+          "phase": "preflight",
+          "value": "2026-09-18",
+          "version": "\"3578668584140062\""
+        },
+        {
+          "at": "2026-09-13T21:19:07.429Z",
+          "phase": "before-write",
+          "value": "2026-09-18",
+          "version": "\"3578668584140062\""
+        },
+        {
+          "at": "2026-09-13T21:19:08.714Z",
+          "phase": "readback",
+          "value": "2026-09-22",
+          "version": "\"3578668696736606\""
+        },
+        {
+          "at": "2026-09-13T21:19:09.321Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-22",
+          "version": "\"3578668696736606\""
+        },
+        {
+          "at": "2026-09-13T21:19:19.832Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-22",
+          "version": "\"3578668696736606\""
+        },
+        {
+          "at": "2026-09-13T21:19:22.484Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-22",
+          "version": "\"3578668696736606\""
+        },
+        {
+          "at": "2026-09-13T21:19:24.766Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-22",
+          "version": "\"3578668696736606\""
+        },
+        {
+          "at": "2026-09-13T21:19:28.587Z",
+          "phase": "final-reconciliation",
+          "value": "2026-09-22",
+          "version": "\"3578668696736606\""
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "verdict": "SUCCESS",
+      "reason": "Recovery verified by independent read.",
+      "recovered": true,
+      "attempts": [
+        {
+          "at": "2026-09-13T21:19:09.731Z",
+          "acknowledged": true
+        },
+        {
+          "at": "2026-09-13T21:19:17.255Z",
+          "acknowledged": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-09-13T21:19:05.180Z",
+          "phase": "preflight",
+          "value": "2026-09-16",
+          "version": "866a3dc6f54c5fff5bec0cd1beb334351992f9c0dec07f0355fc0b1b1aca188a"
+        },
+        {
+          "at": "2026-09-13T21:19:09.728Z",
+          "phase": "before-write",
+          "value": "2026-09-16",
+          "version": "866a3dc6f54c5fff5bec0cd1beb334351992f9c0dec07f0355fc0b1b1aca188a"
+        },
+        {
+          "at": "2026-09-13T21:19:11.251Z",
+          "phase": "readback",
+          "value": "2026-09-16",
+          "version": "866a3dc6f54c5fff5bec0cd1beb334351992f9c0dec07f0355fc0b1b1aca188a"
+        },
+        {
+          "at": "2026-09-13T21:19:18.969Z",
+          "phase": "recovery-readback",
+          "value": "2026-09-20",
+          "version": "293bcec21e450b44c7d721df518d16728a46ee91bc53c3190a748d48d95b02a1"
+        },
+        {
+          "at": "2026-09-13T21:19:19.338Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-20",
+          "version": "293bcec21e450b44c7d721df518d16728a46ee91bc53c3190a748d48d95b02a1"
+        },
+        {
+          "at": "2026-09-13T21:19:22.072Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-20",
+          "version": "293bcec21e450b44c7d721df518d16728a46ee91bc53c3190a748d48d95b02a1"
+        },
+        {
+          "at": "2026-09-13T21:19:24.341Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-20",
+          "version": "293bcec21e450b44c7d721df518d16728a46ee91bc53c3190a748d48d95b02a1"
+        },
+        {
+          "at": "2026-09-13T21:19:28.942Z",
+          "phase": "final-reconciliation",
+          "value": "2026-09-20",
+          "version": "293bcec21e450b44c7d721df518d16728a46ee91bc53c3190a748d48d95b02a1"
+        }
+      ]
+    },
+    {
+      "id": "release",
+      "verdict": "SUCCESS",
+      "reason": "Desired state verified by independent read.",
+      "recovered": false,
+      "attempts": [
+        {
+          "at": "2026-09-13T21:19:20.210Z",
+          "acknowledged": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-09-13T21:19:05.580Z",
+          "phase": "preflight",
+          "value": "2026-09-17",
+          "version": "565b1b427e23988283688a2f48f9ba13eef3f65c45ebc8523359834a392abd3b"
+        },
+        {
+          "at": "2026-09-13T21:19:20.208Z",
+          "phase": "before-write",
+          "value": "2026-09-17",
+          "version": "565b1b427e23988283688a2f48f9ba13eef3f65c45ebc8523359834a392abd3b"
+        },
+        {
+          "at": "2026-09-13T21:19:21.306Z",
+          "phase": "readback",
+          "value": "2026-09-21",
+          "version": "747b7192bbc18ed35636cf25e783021a7251c97cf134e14d8131d4b5a1ac5f4a"
+        },
+        {
+          "at": "2026-09-13T21:19:21.683Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-21",
+          "version": "747b7192bbc18ed35636cf25e783021a7251c97cf134e14d8131d4b5a1ac5f4a"
+        },
+        {
+          "at": "2026-09-13T21:19:25.169Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-21",
+          "version": "747b7192bbc18ed35636cf25e783021a7251c97cf134e14d8131d4b5a1ac5f4a"
+        },
+        {
+          "at": "2026-09-13T21:19:29.313Z",
+          "phase": "final-reconciliation",
+          "value": "2026-09-21",
+          "version": "747b7192bbc18ed35636cf25e783021a7251c97cf134e14d8131d4b5a1ac5f4a"
+        }
+      ]
+    },
+    {
+      "id": "enablement",
+      "verdict": "SUCCESS",
+      "reason": "Desired state verified by independent read.",
+      "recovered": false,
+      "attempts": [
+        {
+          "at": "2026-09-13T21:19:22.888Z",
+          "acknowledged": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-09-13T21:19:06.345Z",
+          "phase": "preflight",
+          "value": "2026-09-18",
+          "version": "6c8500e23512a22ce413b5cc9d737c4baf1cdaafcb3315cef13fbe7fd5fbea42"
+        },
+        {
+          "at": "2026-09-13T21:19:22.884Z",
+          "phase": "before-write",
+          "value": "2026-09-18",
+          "version": "6c8500e23512a22ce413b5cc9d737c4baf1cdaafcb3315cef13fbe7fd5fbea42"
+        },
+        {
+          "at": "2026-09-13T21:19:23.977Z",
+          "phase": "readback",
+          "value": "2026-09-22",
+          "version": "76bd183c32fe7828991e38f674348eb0ca6fb512b1b4157e568da00a5d8511a1"
+        },
+        {
+          "at": "2026-09-13T21:19:25.578Z",
+          "phase": "dependency-recheck",
+          "value": "2026-09-22",
+          "version": "76bd183c32fe7828991e38f674348eb0ca6fb512b1b4157e568da00a5d8511a1"
+        },
+        {
+          "at": "2026-09-13T21:19:29.708Z",
+          "phase": "final-reconciliation",
+          "value": "2026-09-22",
+          "version": "76bd183c32fe7828991e38f674348eb0ca6fb512b1b4157e568da00a5d8511a1"
+        }
+      ]
+    },
+    {
+      "id": "brief",
+      "verdict": "SUCCESS",
+      "reason": "Desired state verified by independent read.",
+      "recovered": false,
+      "attempts": [
+        {
+          "at": "2026-09-13T21:19:26.382Z",
+          "acknowledged": true
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-09-13T21:19:07.053Z",
+          "phase": "preflight",
+          "value": "2026-09-18",
+          "version": "ANLCKQmecKB2wTVnmA2uH41s8pHpJV5DW-J7V8RcVtxjgUBfSyTRYbr8ZwpZ_uAHcAm_42w-oWE2Djr9nDVbF5ja2-sPwofp46QgJqjl7KQ"
+        },
+        {
+          "at": "2026-09-13T21:19:26.379Z",
+          "phase": "before-write",
+          "value": "2026-09-18",
+          "version": "ANLCKQmecKB2wTVnmA2uH41s8pHpJV5DW-J7V8RcVtxjgUBfSyTRYbr8ZwpZ_uAHcAm_42w-oWE2Djr9nDVbF5ja2-sPwofp46QgJqjl7KQ"
+        },
+        {
+          "at": "2026-09-13T21:19:28.204Z",
+          "phase": "readback",
+          "value": "2026-09-22",
+          "version": "ANLCKQm5dNL6G0jtxXZwAWJE7LRGQ95eHPYhTG4N-TzQ4IGvoiIR6Q6CxRxNeiTFxlbr3HOaOqZi8fR6lamgPeZbLNqAmtlFMfFpcrh5cw8"
+        },
+        {
+          "at": "2026-09-13T21:19:30.429Z",
+          "phase": "final-reconciliation",
+          "value": "2026-09-22",
+          "version": "ANLCKQm5dNL6G0jtxXZwAWJE7LRGQ95eHPYhTG4N-TzQ4IGvoiIR6Q6CxRxNeiTFxlbr3HOaOqZi8fR6lamgPeZbLNqAmtlFMfFpcrh5cw8"
+        }
+      ]
+    }
+  ],
+  "blockers": [],
+  "actions": [
+    {
+      "id": "launch",
+      "app": "Calendar",
+      "title": "Mercury · Product launch",
+      "value": "2026-09-18",
+      "version": "\"3578668584140062\"",
+      "externalId": "vrjlh9u348ejcfvhtd35ve00s0",
+      "url": "https://www.google.com/calendar/event?eid=dnJqbGg5dTM0OGVqY2Z2aHRkMzV2ZTAwczAgYWF5dXNoa3VtYmhhcmthcjA4QG0",
+      "dependsOn": [],
+      "owner": "Launch team",
+      "risk": "AUTO",
+      "expected": "2026-09-22",
+      "reason": "Requested launch date"
+    },
+    {
+      "id": "qa",
+      "offsetDays": -2,
+      "app": "Sheets",
+      "title": "Release quality gate",
+      "value": "2026-09-16",
+      "owner": "Maya",
+      "dependsOn": [
+        "launch"
+      ],
+      "locked": false,
+      "risk": "AUTO",
+      "version": "866a3dc6f54c5fff5bec0cd1beb334351992f9c0dec07f0355fc0b1b1aca188a",
+      "externalId": "1VJRAQqcirJqRimPYHfg_NpKsMU5lJr4jDvH7xtZ2FDk!C2",
+      "url": "https://docs.google.com/spreadsheets/d/1VJRAQqcirJqRimPYHfg_NpKsMU5lJr4jDvH7xtZ2FDk/edit#range=C2",
+      "expected": "2026-09-20",
+      "reason": "Preserve declared -2 day offset; verify prerequisites first"
+    },
+    {
+      "id": "release",
+      "offsetDays": -1,
+      "app": "Sheets",
+      "title": "Release approval",
+      "value": "2026-09-17",
+      "owner": "Sam",
+      "dependsOn": [
+        "qa"
+      ],
+      "locked": false,
+      "risk": "AUTO",
+      "version": "565b1b427e23988283688a2f48f9ba13eef3f65c45ebc8523359834a392abd3b",
+      "externalId": "1VJRAQqcirJqRimPYHfg_NpKsMU5lJr4jDvH7xtZ2FDk!C3",
+      "url": "https://docs.google.com/spreadsheets/d/1VJRAQqcirJqRimPYHfg_NpKsMU5lJr4jDvH7xtZ2FDk/edit#range=C3",
+      "expected": "2026-09-21",
+      "reason": "Preserve declared -1 day offset; verify prerequisites first"
+    },
+    {
+      "id": "enablement",
+      "offsetDays": 0,
+      "app": "Sheets",
+      "title": "Owner enablement",
+      "value": "2026-09-18",
+      "owner": "Alex",
+      "dependsOn": [
+        "release"
+      ],
+      "locked": false,
+      "risk": "AUTO",
+      "version": "6c8500e23512a22ce413b5cc9d737c4baf1cdaafcb3315cef13fbe7fd5fbea42",
+      "externalId": "1VJRAQqcirJqRimPYHfg_NpKsMU5lJr4jDvH7xtZ2FDk!C4",
+      "url": "https://docs.google.com/spreadsheets/d/1VJRAQqcirJqRimPYHfg_NpKsMU5lJr4jDvH7xtZ2FDk/edit#range=C4",
+      "expected": "2026-09-22",
+      "reason": "Preserve declared 0 day offset; verify prerequisites first"
+    },
+    {
+      "id": "brief",
+      "app": "Docs",
+      "title": "Mercury · Product launch brief",
+      "value": "2026-09-18",
+      "version": "ANLCKQmecKB2wTVnmA2uH41s8pHpJV5DW-J7V8RcVtxjgUBfSyTRYbr8ZwpZ_uAHcAm_42w-oWE2Djr9nDVbF5ja2-sPwofp46QgJqjl7KQ",
+      "externalId": "1IQJDTEBVfp3C6XYzygCnrkWrK-b7OZls2khJTr_2cOo",
+      "url": "https://docs.google.com/document/d/1IQJDTEBVfp3C6XYzygCnrkWrK-b7OZls2khJTr_2cOo/edit",
+      "dependsOn": [
+        "qa",
+        "release",
+        "enablement"
+      ],
+      "owner": "Launch team",
+      "risk": "AUTO",
+      "expected": "2026-09-22",
+      "reason": "Converge brief to launch date after all tasks verify"
+    }
+  ],
+  "fault": "stale",
+  "finishedAt": "2026-09-13T21:19:30.430Z"
+}

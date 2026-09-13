@@ -1,0 +1,40 @@
+{
+  "take": "2",
+  "source": "raw/take-2.webm",
+  "rawDuration": 131.08,
+  "trimmedSetupSeconds": 14.075000000000017,
+  "finalDuration": 117,
+  "voice": "Microsoft Zira Desktop (local synthetic)",
+  "captions": "captions.srt",
+  "fault": "Real stale write; six-second pause after actual mismatch",
+  "narration": [
+    {
+      "at": 0,
+      "text": "Changing one launch date sounds simple. Across a calendar, a task register, and a launch brief, it can leave a team working from conflicting information."
+    },
+    {
+      "at": 13,
+      "text": "Mercury takes one launch change and discovers the linked records in Google Calendar, Sheets, and Docs. These are real applications. The graph shows three task owners and their prerequisites. Declared offsets keep quality checks before release, rather than moving every task to the same day."
+    },
+    {
+      "at": 37,
+      "text": "Now Mercury applies the plan. Every write has a separate readback. An accepted request is not evidence that the desired state exists."
+    },
+    {
+      "at": 47,
+      "text": "This run deliberately injects one stale write. The API acknowledges it, but the recorded date is still wrong. Mercury withholds success and checks whether repair is safe."
+    },
+    {
+      "at": 68,
+      "text": "One bounded repair restores the expected date. The proof shows the contradiction: September sixteenth was observed when September twentieth was required. A new read verifies September twentieth. Only then can dependent work proceed."
+    },
+    {
+      "at": 89,
+      "text": "The final receipt records five verified postconditions across all three applications, with timestamps and external records. Missing evidence stays inconclusive. A conflicting edit stops automatic repair."
+    },
+    {
+      "at": 104,
+      "text": "This is recovery within a defined workflow, not a promise that everybody read an update. Mercury shows what changed, what failed, what recovered, and what is proven."
+    }
+  ]
+}

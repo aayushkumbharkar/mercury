@@ -1,0 +1,12 @@
+{
+ "durationSeconds":117,
+ "viewport":{"width":1600,"height":900},
+ "baseUrl":"http://127.0.0.1:4317",
+ "resetDate":"2026-09-18",
+ "targetDate":"2026-09-22",
+ "mode":"live",
+ "fault":"stale",
+ "recoveryPauseMs":6000,
+ "voice":"Microsoft Zira Desktop"
+}
+
